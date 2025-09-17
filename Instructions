@@ -1,0 +1,8 @@
+1. Cd to backend
+2. activate environment = .\.venv\Scripts\activate
+
+3. To start the server = .\.venv\Scripts\python.exe -X dev app.py
+
+4. Code to add/seed more tools into the database after adding the tool to the csv file in the root folder = .\.venv\Scripts\python.exe seed.py --file ..\tools_catalog.csv
+
+5. Localhost DB URL = postgresql+pg8000://postgres:lamis@localhost/inventory
