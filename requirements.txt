@@ -18,3 +18,5 @@ Werkzeug>=3.0.1
 python-dotenv>=1.0.1
 six>=1.16.0
 typing-extensions>=4.10.0
+
+gunicorn
